@@ -8,6 +8,8 @@ import Shop from './Components/Shop'
 import Community from './Components/Community'
 import Cropdetail from './Components/Cropdetail'
 import Diagonose from './Components/Diagonose'
+import WeatherWidget from './Components/Weather'
+import CurrentTemperature from './Components/Weather'
 const routes = createBrowserRouter([
   {
     path: "" ,
@@ -32,6 +34,9 @@ const routes = createBrowserRouter([
        {
         path: "/diagonis" ,
         element : <Diagonose />
+       },{
+       path : "/currenttemperature" ,
+       element : <CurrentTemperature />
        }
     ]
   }

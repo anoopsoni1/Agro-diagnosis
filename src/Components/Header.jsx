@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
    <header class="bg-white text-black p-4 flex items-center justify-between shadow-md">
-  <a href="index.html" class="text-2xl font-bold hover:text-green-500">AgroDiagnose</a>
+  <a class="text-2xl font-bold hover:text-green-500">AgroDiagnose</a>
   <div class="flex items-center space-x-4">
 
     <nav class="hidden md:flex space-x-6">
@@ -12,7 +12,7 @@ function Header() {
       <Link to="/diagonis" class="hover:text-green-200">Diagnosis</Link>
       <Link to="/cropdetail" class="hover:text-green-200">Insights</Link>
       <Link to="/community" class="hover:text-green-200">Community</Link>
-      <Link to="/shop" class="hover:text-green-200">Shop</Link>
+      <Link to="/currenttemperature" class="hover:text-green-200">Weather</Link>
     </nav>
 
     <button class="md:hidden focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">

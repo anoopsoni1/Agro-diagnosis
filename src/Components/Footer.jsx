@@ -14,11 +14,11 @@ function Footer() {
     <div>
       <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
       <ul class="space-y-2 text-sm">
-        <li><a href="index.html" class="hover:text-green-200">Home</a></li>
-        <li><a href="diagnosis-result.html" class="hover:text-green-200">Diagnosis</a></li>
-        <li><a href="field-insights.html" class="hover:text-green-200">Insights</a></li>
-        <li><a href="community.html" class="hover:text-green-200">Community</a></li>
-        <li><a href="shop.html" class="hover:text-green-200">Dukaan</a></li>
+        <li><a  class="hover:text-green-200">Home</a></li>
+        <li><a  class="hover:text-green-200">Diagnosis</a></li>
+        <li><a  class="hover:text-green-200">Insights</a></li>
+        <li><a  class="hover:text-green-200">Community</a></li>
+        <li><a  class="hover:text-green-200">Weather</a></li>
       </ul>
     </div>
  
@@ -34,7 +34,7 @@ function Footer() {
    
     <div>
       <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
-      <p class="text-sm">IIIT Bhopal, Madhya Pradesh, India</p>
+      <p class="text-sm">ITM Gwalior, Madhya Pradesh, India</p>
       <p class="text-sm mt-2">support@agrodiagnose.app</p>
       <div class="flex space-x-4 mt-4">
         <a href="#" class="hover:text-green-200" aria-label="Facebook">

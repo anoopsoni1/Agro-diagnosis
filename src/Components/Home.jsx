@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -24,19 +25,14 @@ function Home() {
         <div class="text-3xl mb-1">📋</div>
         <p class="text-sm">Get Diagnosis</p>
       </div>
-      <div class="text-xl">➡</div>
-      <div>
-        <div class="text-3xl mb-1">💊</div>
-        <p class="text-sm">Get Medicine</p>
-      </div>
     </div>
-    <a href="diagnosis-result.html" class="mt-4 block w-full bg-blue-600 text-white py-2 rounded-xl text-center font-medium">Take a Picture</a>
+    <Link class="mt-4 block w-full bg-blue-600 text-white py-2 rounded-xl text-center font-medium">Take a Picture</Link>
   </section>
 
   <section class="p-4 mt-6 mx-4 bg-white shadow-lg rounded-xl">
     <h3 class="text-lg font-semibold">📍 Start Precision Farming</h3>
     <p class="text-sm text-gray-600 mt-1">Add your field to unlock custom insights and nutrient plans</p>
-    <a href="field-insights.html" class="mt-3 inline-block bg-green-600 text-white px-4 py-2 rounded-lg">Add Field</a>
+    <a class="mt-3 inline-block bg-green-600 text-white px-4 py-2 rounded-lg">Add Field</a>
   </section>
     </>
   )
